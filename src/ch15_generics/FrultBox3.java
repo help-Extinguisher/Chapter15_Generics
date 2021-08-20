@@ -1,9 +1,10 @@
 package ch15_generics;
 
-public class FrultBox3 {
+public class FrultBox3 { 
 	public static void main(String[] args) {
 		
 		// 만능상자를 만들었따
+		// 할당(선언)을 해주었따
 		Box_<Apple> aBox = new Box_<Apple>(); // 객체를 생성할때 타입을 지정해준거임 Box_<T>에서
 		Box_<Orange> oBox = new Box_<Orange>();
 		
